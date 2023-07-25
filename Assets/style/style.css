@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Borel;
+    src: url(../fonts/Borel-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body {
+    font-family: Montserrat;
+    min-height: 100vh;
+}
+header img {
+    border-radius: 50%;
+    height: 200px;
+}
+
+header {
+    margin: 20px;
+    display: flex;
+    height: 200px;
+    background: #776d6d5d;
+    border-radius: 20px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    
+
+}
+.intro {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+    
+h1 {
+    font-size: 4rem;
+    font-family: Montserrat;
+}
+
+h2, span{
+    font-family: Borel;
+    height: 35px;
+}
+
+h4 {
+    text-decoration:underline ;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.profil {
+    margin: 20px;
+    padding: 10px;
+    line-height: 30px;
+    background: #e0919148;
+    width: 200px;
+    border-radius: 20px;
+    
+}
+
+.formation {
+    line-height: 30px;
+    width: 70%;
+}
+
+.formation p {
+    text-indent: 25px;
+}
+
+.experience {
+    padding: 20px;
+    line-height: 30px;
+    width: 50%;
+}
+
+.sante {
+    margin-bottom: 20px;
+}
+
+
+
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}

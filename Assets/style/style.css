@@ -66,15 +66,19 @@ main {
     margin: 20px;
     padding: 10px;
     line-height: 30px;
-    background: #e0919148;
+    background: #73626eb6;
     width: 200px;
     border-radius: 20px;
-    
+    height: 180px;
 }
 
 .formation {
     line-height: 30px;
     width: 70%;
+    margin: 20px;
+    padding: 10px;
+    background: #b38184;
+    border-radius: 20px;
 }
 
 .formation p {
@@ -82,21 +86,42 @@ main {
 }
 
 .experience {
-    padding: 20px;
+    margin: 20px;
+    padding: 10px;
     line-height: 30px;
     width: 50%;
+    background: #f0b49e;
+    border-radius: 20px;
 }
 
 .sante {
     margin-bottom: 20px;
+    
+    
 }
 
+.loisir {
+    line-height: 30px;
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    background: #f7e4be;
+    border-radius: 20px;
+    height: 390px;
+}
 
-
-
-footer ul {
+footer {
+    background: #413e4a;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: whitesmoke;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    
+}
+
+footer li {
+    padding: 10px;
     
 }
